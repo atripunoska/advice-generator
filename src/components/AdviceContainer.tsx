@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import AdviceNumber from "./AdviceNumber";
 import Advice from "./Advice";
+import DesktopDivider from "../assets/pattern-divider-desktop.svg";
+import MobileDivider from "../assets/pattern-divider-mobile.svg";
+import iconDice from "../assets/icon-dice.svg";
 
 interface AdviceContainerProperties {
   number: string;
@@ -28,7 +31,10 @@ const AdviceContainer = ({ number, text }: AdviceContainerProperties) => {
     <div className="advice-container">
       <AdviceNumber number={adviceNumber} />
       <Advice advice={advice} />
-      <button onClick={getData}>Click</button>
+      <img src={DesktopDivider} alt="Divider" />
+      <button className="advice-generator__button" onClick={getData}>
+        <img src={iconDice} alt="Icon Dice Button" />
+      </button>
     </div>
   );
 };
