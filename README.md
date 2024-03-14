@@ -38,7 +38,7 @@ Users is be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://fm-advice-generator-application.netlify.app/](https://fm-advice-generator-application.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,7 @@ Users is be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 
 ## Author
