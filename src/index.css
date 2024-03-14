@@ -23,7 +23,7 @@ body {
   justify-content: center;
   background-color: hsl(217, 19%, 24%);
   border-radius: 30px;
-  padding: 50px;
+  padding: 50px 50px 70px 50px;
   position: relative;
 }
 
@@ -58,7 +58,23 @@ body {
   transition: all 200ms ease-in-out;
 }
 
-.advice-generator__button:hover,
-.advice-generator__button:focus {
+.advice-generator__button:hover {
   box-shadow: hsl(150deg 100% 66%) 0px 0px 29px 7px;
+}
+.advice-mobile-divider {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .advice-container {
+    width: fit-content;
+    margin: 0 30px;
+  }
+  .advice-desktop-divider {
+    display: none;
+  }
+  .advice-mobile-divider {
+    display: block;
+    width: 100%;
+  }
 }
