@@ -16,7 +16,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Users is be able to:
+Users are able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
